@@ -49,7 +49,7 @@ print(f"Generating demo for: {env_name}")
 policy = POLICY[env_name]()
 
 # Initialize save dir
-save_dir = Path("./demos") / env_name
+save_dir = Path("/home/jiecao-boy/Desktop/MetaWorld/demos") / env_name
 save_dir.mkdir(parents=True, exist_ok=True)
 # Initialize video recorder
 video_recorder = VideoRecorder(save_dir, camera_name=CAMERA[env_name])
