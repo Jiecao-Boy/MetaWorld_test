@@ -1,0 +1,145 @@
+{
+    "os": "Linux-5.19.0-42-generic-x86_64-with-glibc2.35",
+    "python": "3.10.6",
+    "heartbeatAt": "2023-05-25T21:03:59.978725",
+    "startedAt": "2023-05-25T21:03:59.652414",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/jiecao-boy/Desktop/MetaWorld/MetaWorld_test/train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/Jiecao-Boy/MetaWorld_test.git",
+        "commit": "e222aca986b091239e1cf104ed2b1763ee0911a0"
+    },
+    "email": null,
+    "root": "/home/jiecao-boy/Desktop/MetaWorld/MetaWorld_test",
+    "host": "jiecaoboy-ROG-Zephyrus-M16-GU603ZW",
+    "username": "root",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 2.0119999999999996,
+        "min": 400.0,
+        "max": 4480.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 0.485,
+            "min": 400.0,
+            "max": 4900.0
+        },
+        {
+            "current": 2.21,
+            "min": 400.0,
+            "max": 4900.0
+        },
+        {
+            "current": 1.484,
+            "min": 400.0,
+            "max": 4900.0
+        },
+        {
+            "current": 4.104,
+            "min": 400.0,
+            "max": 4900.0
+        },
+        {
+            "current": 4.396,
+            "min": 400.0,
+            "max": 5000.0
+        },
+        {
+            "current": 2.754,
+            "min": 400.0,
+            "max": 5000.0
+        },
+        {
+            "current": 3.98,
+            "min": 400.0,
+            "max": 5000.0
+        },
+        {
+            "current": 2.9,
+            "min": 400.0,
+            "max": 5000.0
+        },
+        {
+            "current": 3.99,
+            "min": 400.0,
+            "max": 4900.0
+        },
+        {
+            "current": 0.704,
+            "min": 400.0,
+            "max": 4900.0
+        },
+        {
+            "current": 3.215,
+            "min": 400.0,
+            "max": 4900.0
+        },
+        {
+            "current": 2.9,
+            "min": 400.0,
+            "max": 4900.0
+        },
+        {
+            "current": 2.9,
+            "min": 400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2.9,
+            "min": 400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2.9,
+            "min": 400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2.9,
+            "min": 400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2.9,
+            "min": 400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2.9,
+            "min": 400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 2.9,
+            "min": 400.0,
+            "max": 3800.0
+        },
+        {
+            "current": 0.4,
+            "min": 400.0,
+            "max": 3800.0
+        }
+    ],
+    "disk": {
+        "total": 274.21412658691406,
+        "used": 46.091712951660156
+    },
+    "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 38.87682342529297
+    }
+}

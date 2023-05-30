@@ -1,0 +1,27 @@
+2023-05-25 17:03:59,652 INFO    MainThread:16785 [wandb_setup.py:_flush():76] Current SDK version is 0.15.3
+2023-05-25 17:03:59,652 INFO    MainThread:16785 [wandb_setup.py:_flush():76] Configure stats pid to 16785
+2023-05-25 17:03:59,652 INFO    MainThread:16785 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2023-05-25 17:03:59,652 INFO    MainThread:16785 [wandb_setup.py:_flush():76] Loading settings from /home/jiecao-boy/Desktop/MetaWorld/MetaWorld_test/wandb/settings
+2023-05-25 17:03:59,653 INFO    MainThread:16785 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-05-25 17:03:59,653 INFO    MainThread:16785 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': '/home/jiecao-boy/Desktop/MetaWorld/MetaWorld_test/train.py'}
+2023-05-25 17:03:59,653 INFO    MainThread:16785 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-05-25 17:03:59,653 INFO    MainThread:16785 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-05-25 17:03:59,653 INFO    MainThread:16785 [wandb_init.py:_log_setup():507] Logging user logs to /home/jiecao-boy/Desktop/MetaWorld/MetaWorld_test/wandb/run-20230525_170359-vlzwhf8h/logs/debug.log
+2023-05-25 17:03:59,653 INFO    MainThread:16785 [wandb_init.py:_log_setup():508] Logging internal logs to /home/jiecao-boy/Desktop/MetaWorld/MetaWorld_test/wandb/run-20230525_170359-vlzwhf8h/logs/debug-internal.log
+2023-05-25 17:03:59,653 INFO    MainThread:16785 [wandb_init.py:init():547] calling init triggers
+2023-05-25 17:03:59,653 INFO    MainThread:16785 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'encoder': {'image_encoder': {'_target_': 'model.encoder.ImageBCEncoder', 'out_dim': 512, 'in_channels': 3}, 'last_layer': {'_target_': 'model.utils.create_fc', 'input_dim': 576, 'output_dim': 23, 'hidden_dims': [256, 64]}}, 'learner': {'loss_fn': 'mse', 'representation_type': 'tdex', 'freeze_encoders': False}, 'dataset': {'_target_': 'datasets.dataset.VisionActionDataset', 'data_path': '???', 'vision_view_num': 1}, 'optimizer': {'_target_': 'torch.optim.Adam', 'params': '???', 'lr': 1e-05, 'weight_decay': 1e-05}, 'seed': 42, 'device': 'cuda', 'learner_type': 'bc', 'self_supervised': True, 'batch_size': 32, 'vision_image_size': 224, 'train_epochs': 500, 'save_frequency': 10, 'train_dset_split': 0.95, 'distributed': True, 'num_workers': 4, 'world_size': 1, 'num_gpus': 1, 'object': 'meta_hammer', 'experiment': 'bc_bs_32_epochs_500_lr_1e-05_meta_hammer', 'data_dir': '/home/jiecao-boy/Desktop/MetaWorld/', 'checkpoint_dir': '/home/Desktop/MetaWorld/2023.05.25/17-03_bc_bs_32_epochs_500_lr_1e-05_meta_hammer/saved_model', 'logger': True, 'log_frequency': 1}
+2023-05-25 17:03:59,653 INFO    MainThread:16785 [wandb_init.py:init():596] starting backend
+2023-05-25 17:03:59,653 INFO    MainThread:16785 [wandb_init.py:init():600] setting up manager
+2023-05-25 17:03:59,654 INFO    MainThread:16785 [wandb_init.py:init():606] backend started and connected
+2023-05-25 17:03:59,656 INFO    MainThread:16785 [wandb_init.py:init():700] updated telemetry
+2023-05-25 17:03:59,658 INFO    MainThread:16785 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2023-05-25 17:03:59,878 INFO    MainThread:16785 [wandb_run.py:_on_init():2177] communicating current version
+2023-05-25 17:03:59,958 INFO    MainThread:16785 [wandb_run.py:_on_init():2186] got version response 
+2023-05-25 17:03:59,958 INFO    MainThread:16785 [wandb_init.py:init():787] starting run threads in backend
+2023-05-25 17:03:59,987 INFO    MainThread:16785 [wandb_run.py:_console_start():2158] atexit reg
+2023-05-25 17:03:59,987 INFO    MainThread:16785 [wandb_run.py:_redirect():2013] redirect: SettingsConsole.WRAP_RAW
+2023-05-25 17:03:59,987 INFO    MainThread:16785 [wandb_run.py:_redirect():2078] Wrapping output streams.
+2023-05-25 17:03:59,987 INFO    MainThread:16785 [wandb_run.py:_redirect():2103] Redirects installed.
+2023-05-25 17:03:59,988 INFO    MainThread:16785 [wandb_init.py:init():829] run started, returning control to user process
+2023-05-25 17:04:11,732 WARNING MsgRouterThr:16785 [router.py:message_loop():77] message_loop has been closed

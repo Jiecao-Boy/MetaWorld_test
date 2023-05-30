@@ -30,7 +30,6 @@ class VisionActionDataset(data.Dataset):
         # assert tactile_information_type in ['stacked', 'whole_hand', 'single_sensor'], 'tactile_information_type can either be "stacked", "whole_hand" or "single_sensor"'
         # self.tactile_information_type = tactile_information_type
         self.vision_view_num = vision_view_num
-        print
 
         self.vision_transform = T.Compose([
             # T.Resize((480,640)), #size may change
@@ -87,9 +86,6 @@ class VisionActionDataset(data.Dataset):
         # demo_id, image_id = self.data['image']['indices'][index]
         # image_root = self.roots[demo_id]
         # image_path = os.path.join(image_root, 'cam_{}_rgb_images/frame_{}.png'.format(self.vision_view_num, str(image_id).zfill(5)))
-        print("-----------------------------------------------------------")
-        print("index: ", index)
-        print(self.data['images'][index].shape)
         img = self.data['images'][index]
         # img = self.vision_transform(loader(image_path))
         img = self.vision_transform(img)
